@@ -7,10 +7,5 @@ app.get('/ready', function (req, res) {
     res.send('{ "response": "It works!, yessss" }');
 });
 
-// App
-// const app = express();
-app.get('/', (req, res) => {
-  res.send('Hello World i am nodejs');
-});
 app.listen(process.env.PORT || 3000);
 module.exports = app;
