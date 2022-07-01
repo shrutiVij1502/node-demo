@@ -4,7 +4,7 @@ app.get('/will', function (req, res) {
     res.send('{ "response": "Hello World" }');
 });
 app.get('/ready', function (req, res) {
-    res.send('{ "response": "It works!, yessss" }');
+    res.send('{ "response": "It works! ok" }');
 });
 
 // App
