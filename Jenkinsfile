@@ -35,11 +35,11 @@ pipeline {
                 }
             }
 
-            stage('Cleaning Up') {
-                steps{
-                  sh "docker rmi --force $registry:$BUILD_NUMBER"
-                }
-            }
+//             stage('Cleaning Up') {
+//                 steps{
+//                   sh "docker rmi --force $registry:$BUILD_NUMBER"
+//                 }
+//             }
             
             stage('Creating container') {
                 steps{                   
