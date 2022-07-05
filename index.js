@@ -9,7 +9,7 @@ app.get('/ready', function (req, res) {
 
 // App
 app.get('/', (req, res) => {
-  res.send('Hello World i am nodejs2');
+  res.send('Hello World i am nodejs3');
 });
 
 app.listen(process.env.PORT || 3000);
